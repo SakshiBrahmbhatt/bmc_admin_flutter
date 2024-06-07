@@ -113,7 +113,7 @@ class _MyFormState extends State<MyForm> {
                 buildTextFieldWithButtons('RTC Month', rtcMonVal, '@TIMEMON', bleController,deviceInfo.device),
                 buildTextFieldWithButtons('RTC Year', rtcYrsVal, '@TIMEYRS', bleController,deviceInfo.device),
                 buildTextFieldWithButtons('CIP', cipVal, '@CIPTGR', bleController,deviceInfo.device),
-                buildTextFieldWithButtons('HOST', hostVal, '@SERVER ', bleController,deviceInfo.device),
+                buildTextFieldWithButtons('HOST', hostVal, '@SERVER', bleController,deviceInfo.device),
               ],
             ),
           );
